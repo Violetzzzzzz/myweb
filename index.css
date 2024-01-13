@@ -78,3 +78,137 @@ input:checked+.slider:before {
 .navbar-nav .nav-item.dropdown:hover .dropdown-menu {
     display: block;
 }
+
+.title1 {
+    margin-left: 30px;
+    margin-top: 20px;
+    font-family: Chalkduster, fantasy;
+    font-size: 60px;
+    color: #a56fc9;
+}
+
+.title2 {
+    margin-left: 30px;
+    margin-top: 20px;
+    font-family: Chalkduster, fantasy;
+    font-size: 40px;
+    color: #a56fc9;
+}
+
+.texts {
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    width: 100%;
+}
+
+
+.text1 {
+    font-family: "Courier New", sans-serif;
+    font-size: 40px;
+    color: #370456;
+    width: 65%;
+    margin: auto;
+}
+
+.text2 {
+    font-family: "Courier New", sans-serif;
+    font-size: 20px;
+    color: #370456;
+    width: 65%;
+    align-self: center;
+    margin: auto;
+}
+
+
+.text3 {
+    font-family: "Courier New", sans-serif;
+    font-size: 40px;
+    color: #370456;
+    margin: auto;
+}
+
+.text4 {
+    font-family: "Courier New", sans-serif;
+    font-size: 18px;
+    color: rgb(204, 144, 231);
+    align-self: center;
+    margin: auto;
+    padding: 10px;
+    text-align: left;
+}
+
+.text5 {
+    font-family: "Courier New", sans-serif;
+    font-size: 18px;
+    color: #370456;
+    width: fit-content;
+}
+
+
+
+.card {
+    height: 80px;
+    width: 260px;
+    font-family: Chalkduster, fantasy;
+    align-items: center;
+    text-align: center;
+    display: inline-block;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#cards {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    width: fit-content;
+}
+
+#bg {
+    margin-top: -100px;
+}
+
+#display-container1 {
+    align-items: center;
+    width: fit-content;
+    margin: auto;
+}
+
+#display-container2 {
+    align-items: center;
+    width: fit-content;
+    margin: auto;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-rows: repeat(auto-fill, minmax(24px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(24px, 1fr));
+    gap: 1px;
+}
+
+.grid-bg {
+    width: 100%;
+    height: 100%;
+}
+
+
+#myFooter {
+    margin-left: 30px;
+    /* display: flex; */
+}
+
+
+.img-container:hover p {
+    color: #370456;
+}
+
+.img-container {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    padding: 30px;
+}

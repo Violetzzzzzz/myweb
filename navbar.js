@@ -1,8 +1,7 @@
-// @babel/preset-react
 const navbar = (
     <nav className="navbar navbar-expand-lg bg-body-tertiary">
         <div className="container-fluid">
-            <a className="navbar-brand" href="#"><span className="logo-icon"><img src="logo.png" alt="Logo" /></span>Z.</a>
+            <a className="navbar-brand" href="index.html"><span className="logo-icon"><img src="logo.png" alt="Logo" /></span>Z.</a>
             <button className="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                 aria-expanded="false" aria-label="Toggle navigation">
@@ -11,24 +10,23 @@ const navbar = (
             <div className="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                     <li className="nav-item">
-                        <a className="nav-link active" aria-current="page" href="#">Home</a>
+                        <a className="nav-link" aria-current="page" href="index.html" >Home</a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" >About Me</a>
+                        <a className="nav-link" href="about.html">About Me</a>
                     </li>
                     <li className="nav-item dropdown" id="dropdown-container">
                         <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             My Projects
                         </a>
                         <ul className="dropdown-menu">
-                            <li><a className="dropdown-item" href="#">CipherCraft</a></li>
-                            <li><a className="dropdown-item" href="#">Another action</a></li>
-                            <li><hr className="dropdown-divider" /></li>
-                            <li><a className="dropdown-item" href="#">Something else here</a></li>
+                            <li><a className="dropdown-item" href="https://github.com/Violetzzzzzz/cipher-craft.git">CipherCraft</a></li>
+                            <li><a className="dropdown-item" href="https://github.com/Violetzzzzzz/CuddleSnap-Gallery.git">CuddleSnap Gallery</a></li>
+                            <li><a className="dropdown-item" href="https://github.com/Violetzzzzzz/web-browser-javafx.git">Web Browser</a></li>
                         </ul>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="#">Resume</a>
+                        <a className="nav-link" href="cv.pdf">Resume</a>
                     </li>
                 </ul>
                 <span className="nav-link" id="switch-label">Personal Mode&nbsp;&nbsp;</span>
@@ -45,25 +43,16 @@ const navbar = (
 
 )
 
+function aboutMe() {
+    ReactDOM.render(
+        navbar,
+        document.getElementById("navbar-container")
+    )
+}
+
+
 ReactDOM.render(
     navbar,
-    document.getElementById("root")
+    document.getElementById("navbar-container")
 )
 
-// function MainContent() {
-//     return (
-//         <h1>Hi there!</h1>
-//     )
-// }
-
-// ReactDOM.render(
-//     <div>
-//         <Navbar />
-//         <MainContent />
-
-//     </div>, document.getElementById("root"))
-
-// const p = document.createElement("p")
-// p.textContent = "THis is a test"
-// p.className = "prag"
-// document.getElementById("root").append(p)
