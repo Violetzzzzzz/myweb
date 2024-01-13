@@ -29,14 +29,14 @@ const navbar = (
                         <a className="nav-link" href="cv.pdf">Resume</a>
                     </li>
                 </ul>
-                <span className="nav-link" id="switch-label">Personal Mode&nbsp;&nbsp;</span>
+                {/* <span className="nav-link" id="switch-label">Personal Mode&nbsp;&nbsp;</span>
                 <label className="switch">
                     <input type="checkbox" />
                     <span className="slider">
                         <span className="on-off-text on">ON</span>
                         <span className="on-off-text off">OFF</span>
                     </span>
-                </label>
+                </label> */}
             </div>
         </div>
     </nav >
