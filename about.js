@@ -6,7 +6,7 @@ const AboutTitle = (
         <span className="img-container" >
             <img src="little-girl.jpg" alt="a little girl in classroom" />
             <p className="text4">
-                Hi, my name is Chi Zhang, as known as Violet too. I’m originally from China and a resident of NZ now. Since
+                Hi, my name is Chi Zhang, also known as Violet. I’m originally from China and a resident of NZ now. Since
                 I was a little girl, I have always aspired to become a scientist. During my secondary school years, I began
                 to focus on studying the sciences. With satisfactory grades in chemistry, I applied for the pharmacy major
                 after the completion of the college entrance examination.

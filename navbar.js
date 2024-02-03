@@ -1,4 +1,4 @@
-const navbar = (
+const Navbar = (
     <nav className="navbar navbar-expand-lg bg-body-tertiary">
         <div className="container-fluid">
             <a className="navbar-brand" href="index.html"><span className="logo-icon"><img src="logo.png" alt="Logo" /></span>Z.</a>
@@ -45,14 +45,14 @@ const navbar = (
 
 function aboutMe() {
     ReactDOM.render(
-        navbar,
+        Navbar,
         document.getElementById("navbar-container")
     )
 }
 
 
 ReactDOM.render(
-    navbar,
+    Navbar,
     document.getElementById("navbar-container")
 )
 

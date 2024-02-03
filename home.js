@@ -122,7 +122,7 @@ const HomeText = (
             <h1 className="text1">Let me introduce myself... </h1>
             <br></br>
             <br></br>
-            <p className="text2">Hi, my name is Chi Zhang, as known as Violet too.
+            <p className="text2">Hi, my name is Chi Zhang, also known as Violet.
                 I’m currently a student of Master of Software Development at Victoria University of
                 Wellington. I have a diverse academic background, which has honed my ability to adapt
                 quickly, communicate effectively, and collaborate with diverse teams.</p>
