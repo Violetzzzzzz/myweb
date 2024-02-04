@@ -20,9 +20,10 @@ const Navbar = (
                             My Projects
                         </a>
                         <ul className="dropdown-menu">
-                            <li><a className="dropdown-item" href="https://github.com/Violetzzzzzz/cipher-craft.git">CipherCraft</a></li>
+                            <li><a className="dropdown-item" href="https://github.com/Violetzzzzzz/web-browser-javafx.git">BerrySurf</a></li>
+                            {/* <li><a className="dropdown-item" href="https://github.com/Violetzzzzzz/cipher-craft.git">CipherCraft (Marks Pending)</a></li> */}
                             <li><a className="dropdown-item" href="https://github.com/Violetzzzzzz/CuddleSnap-Gallery.git">CuddleSnap Gallery</a></li>
-                            <li><a className="dropdown-item" href="https://github.com/Violetzzzzzz/web-browser-javafx.git">Web Browser</a></li>
+                            <li><a className="dropdown-item" href="https://github.com/Violetzzzzzz/myweb.git">This Website</a></li>
                         </ul>
                     </li>
                     <li className="nav-item">
