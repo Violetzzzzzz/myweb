@@ -122,10 +122,10 @@ const HomeText = (
             <h1 className="text1">Let me introduce myself... </h1>
             <br></br>
             <br></br>
-            <p className="text2">Hi, my name is Chi Zhang, also known as Violet.
-                I’m currently a student of Master of Software Development at Victoria University of
-                Wellington. I have a diverse academic background, which has honed my ability to adapt
-                quickly, communicate effectively, and collaborate with diverse teams.</p>
+            <p className="text2">Hi, my name is Chi Zhang, as known as Violet too. I’m a graduate of
+                Master of Software Development at Victoria University of Wellington. I have a diverse
+                academic background, which has honed my ability to adapt quickly, communicate effectively,
+                and collaborate with diverse teams.</p>
             <br></br>
             <p className="text2">My passion for the field of software development stems from a deep
                 fascination with technology and its potential to drive innovation and transform industries.
@@ -133,10 +133,10 @@ const HomeText = (
                 challenging industry.</p>
 
             <br></br>
-            <p className="text2">After completing several courses, I gained lots of experience in using
-                programming languages such as Java, PHP, HTML, CSS and JavaScript, as well as SQL for database
-                querying. I also have some practical experience in using Python and C# and applying various
-                frameworks such as JavaFX, Android, .NET, Tkinter and React.</p>
+            <p className="text2">After completing the program, I gained lots of experience in using
+                programming languages such as Java, PHP, HTML, CSS and JavaScript, as well as SQL for
+                database querying. I also have some practical experience in using Python and C# and applying
+                various frameworks such as JavaFX, Android, .NET, Tkinter and React.</p>
 
             <br></br>
             <p className="text2">I have a keen interest in both Web and Mobile App development, fueled by

@@ -40,15 +40,14 @@ const AboutTitle = (
 
         <span className="img-container" >
             <p className="text4">
-                I am currently pursuing a Master's degree in Software Development at Victoria University of Wellington. Through
-                the completion of various courses, I have acquired extensive proficiency in utilizing programming languages such
-                as Java, PHP, HTML, CSS, and JavaScript, along with SQL for efficient database querying. Additionally, I have
-                hands-on experience with Python and C# and have applied diverse frameworks including JavaFX, Android, .NET, Tkinter,
-                and React. My primary focus lies in both Web and Mobile App development, driven by my involvement in related projects.
-                Witnessing the tangible outcomes of these projects coming to fruition provides me with a profound sense of accomplishment.
-                Recently, I have ventured into the realm of cloud services for server deployment, actively broadening my knowledge in
-                these evolving domains. If your journey aligns with similar interests or experiences, I am eager to connect and learn
-                more about your experiences and insights!
+                I am a graduate of the Master of Software Development program at Victoria University of Wellington. Throughout
+                my studies, I developed extensive proficiency in programming languages such as Java, PHP, HTML, CSS, and
+                JavaScript, alongside SQL for efficient database querying. I also gained hands-on experience with Python
+                and C#, working with frameworks including JavaFX, Android, .NET, Tkinter, and React. My primary focus is
+                Web and Mobile App development, and I find great satisfaction in seeing the tangible results of the projects
+                I’ve worked on. Recently, I’ve expanded my skills into cloud services for server deployment, further broadening
+                my knowledge in this evolving field. If your journey aligns with similar interests or experiences, I’d be
+                excited to connect and share insights!
             </p>
             <img src="developer-girl.jpg" alt="a girl developer" />
 
